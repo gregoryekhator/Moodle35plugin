@@ -15,20 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Plugin version and other meta-data are defined here.
+ * Block to ai courses by filter out course name and description.
  *
- * @package     block_ai_courses2
- * @copyright   2018 Debonair Training <greg@debonairtraining.com>
- * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package    block_ai_course
+ * @copyright  3i Logic
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'block_ai_courses2';
-$plugin->release = '0.1.0';
-$plugin->version = 2018112600;
-$plugin->requires = 2018051700;
+$plugin->version   = 2019040500;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires  = 2017051503;        // Requires this Moodle version.
+$plugin->component = 'block_ai_course2';
+$plugin->release = '3.6';
 $plugin->maturity = MATURITY_ALPHA;
-$plugin->dependencies = [
-    '2016120500' => 2017111300,
-];
